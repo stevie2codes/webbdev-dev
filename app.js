@@ -5,7 +5,7 @@ const router = express.Router();
 const path = require('path');
 
 router.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname + 'index.html'));
+  res.sendFile(path.join(__dirname, 'Front-End/html/index.html'));
 });
 app.get('/demo', (req, res) => {
   res.set('X-WebbDev', '4life');
