@@ -1,0 +1,26 @@
+body {
+  background-color: silver;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  background-image: url('../assets/webbDev.png');
+}
+
+.btn {
+  justify-content: center;
+  margin: 10px auto;
+  font-size: inherit;
+  margin-bottom: 10px;
+  padding: 20px;
+  box-shadow: 0px 5px 10px rgba(111, 111, 111, 0.4),
+    0px -5px 10px rgba(181, 180, 180, 0.4);
+  border-radius: 20px;
+  background-color: silver;
+  border: none;
+}
+
+.soon {
+  color: silver;
+  font-size: 4rem;
+  text-align: center;
+}
